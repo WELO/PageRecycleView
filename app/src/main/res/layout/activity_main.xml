@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+                name="isLoading"
+                type="Boolean" />
+    </data>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity">
+
+        <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/vpApp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/pageIndicatorView" />
+
+        <com.rd.PageIndicatorView
+                android:id="@+id/pageIndicatorView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="16dp"
+                app:piv_selectedColor="@color/primary__dark__orange"
+                app:piv_unselectedColor="@color/warm_grey"
+                tools:piv_padding="@dimen/space_twelve"
+                tools:piv_radius="@dimen/line_bold_h" />
+
+        <ProgressBar
+                android:id="@+id/pbLoading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="@{isLoading?View.VISIBLE:View.GONE}" />
+    </RelativeLayout>
+</layout>

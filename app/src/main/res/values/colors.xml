@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="primary__brown">#d49119</color>
+    <color name="primary__red">#e62773</color>
+    <color name="primary__green">#0da29b</color>
+    <color name="primary__blue">#0b6fb8</color>
+    <color name="primary__grey">#7f7e7a</color>
+    <color name="primary__black">#000000</color>
+    <color name="secondary__orange">#f87925</color>
+    <color name="system__green">#8fc320</color>
+    <color name="system__red">#e25648</color>
+    <color name="primary__dark__green">#007684</color>
+    <color name="primary__dark__orange">#f4951a</color>
+    <color name="primary__white">#ffffff</color>
+    <color name="light_grey__border">#e0e0e0</color>
+    <color name="grey">#cacaca</color>
+    <color name="primary__black_10">#19000000</color>
+    <color name="primary__black_30">#4c000000</color>
+    <color name="primary_black_8">#14000000</color>
+    <color name="primary_dark_orange_30">#4cf4951a</color>
+    <color name="primary__darkgrey">#3c3c3c</color>
+    <color name="view_pager_page_no_select">#c7c7cc</color>
+    <color name="warm_grey">#9b9b9b</color>
+    <color name="mango">#ffab27</color>
+    <color name="warm_grey_two">#979797</color>
+    <color name="Primary_Black_40">#66000000</color>
+    <color name="primary_dark_orange2">#f88d32</color>
+    <color name="primary_dark_orange3">#ffa527</color>
+</resources>
